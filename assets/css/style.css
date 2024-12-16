@@ -1254,13 +1254,15 @@ html {
 
 .about-content-part {}
 .about-image-part2 {
-	margin-bottom: 30px;
+	border-radius: 8px !important;
+	overflow: hidden;
+	margin-bottom: 25px;
 }
 .about-image-part {
     text-align: center;
     padding: 40px;
     border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
+    border-radius: 8px !important;
     box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
     background-color: #fff;
 }
@@ -1285,7 +1287,7 @@ html {
 .about-image-part img {
 	border: 2px dashed #448C74;
 	padding:10px;
-	border-radius: 50%;
+	border-radius: 8px !important;
 	margin-bottom: 30px;
 }
 
@@ -3159,4 +3161,89 @@ ul.blog_pagination li a:hover {
     border-radius: 14px;
     padding: 25px;
     border: 1px solid var(--border-color);
+}
+
+.languages-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.languages-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.languages-section ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.languages-section ul li:last-child {
+    border-bottom: none;
+}
+
+.languages-section ul li span:last-child {
+    color: #448C74;
+    font-weight: 500;
+}
+
+/* Contact Info Section Styling */
+.contact-info-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.contact-info-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info-section ul li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-info-section ul li:last-child {
+    border-bottom: none;
+}
+
+.contact-info-section ul li i {
+    min-width: 24px;
+    margin-right: 10px;
+    color: #448C74;
+}
+
+.contact-info-section ul li span {
+    color: #333;
+}
+
+/* Adjust image size and spacing */
+.about-image-part {
+    margin-bottom: 30px;
+}
+
+.about-image-part2 {
+    margin-bottom: 20px;
+}
+
+/* Make languages section more compact */
+.languages-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.languages-section ul li {
+    padding: 6px 0;
 }
