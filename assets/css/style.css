@@ -1254,7 +1254,7 @@ html {
 
 .about-content-part {}
 .about-image-part2 {
-	border-radius: 8px !important;
+	border-radius: 4px !important;
 	overflow: hidden;
 	margin-bottom: 25px;
 }
